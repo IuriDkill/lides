@@ -1,0 +1,264 @@
+.headerContainer{
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    padding-bottom: 6px;
+    z-index: 5;
+}
+
+.header{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    z-index: 100;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 130px;
+    height: 65px;
+    padding: 10px;
+}
+
+.navbarDesktop{
+    display: none;
+    gap: 20px;
+}
+
+.navbarMobile{
+    display:  flex;
+    flex-direction: column;
+    width: 80px;
+    margin-top: 18px;
+    justify-content: center;;
+    align-items: center;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navItem{
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    transition: color 0.3s ease;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    max-width: 150px;
+}
+
+.navItemActive{
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    transition: color 0.3s ease;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #3C9;
+}
+
+.productItens{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    align-items: flex-start;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    max-width: 150px;
+}
+
+.Gota{
+    width: 10px;
+    height: 20px;
+}
+
+.Gota path{
+    fill: currentColor;
+}
+
+.downIcon{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.HomeIcon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.downIcon path{
+    fill: currentColor;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+  
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    min-width: 122px;
+    z-index: 100;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.4s ease;
+}
+  
+.dropdownItem {
+    padding: 10px 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: background 0.2s;
+    text-align: left;
+}
+  
+.dropdown:hover .dropdownMenu {
+    height: 122px;
+}
+  
+.productItens a,
+.navItem a,
+.navItemActive a,
+.dropdownItem a,
+.dropdownMenu a {
+    white-space: nowrap;
+    color: #fff;
+}
+
+.productItens label{
+    font-family: Roboto;
+}
+
+.navListMobile {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out;
+}
+  
+.menuToggle:checked + .hamburger + .navListMobile {
+    max-height: 480px;
+}
+
+.productsDropdown{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: flex-start;
+    gap: 5px;
+    cursor: pointer;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.productsToggle:checked + .navLink + .productsDropdown {
+    max-height: 250px;
+}
+  
+.hamburger {
+    width: 130px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+}
+  
+.menuToggle {
+    display: none;
+}
+  
+.navLink {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.productsToggle{
+    display: none;
+}
+
+.navItem:hover ,
+.dropdownItem:hover,
+.navItemActive:hover {
+    border-radius: 5px;
+    background: #3C9;
+}
+
+.ContainerLanguage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.languageSelect{
+    display: flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: transparent;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+}
+
+.languageSelect option{
+    background-color: #fff;
+    color: #014570;
+    cursor: pointer;
+}
+
+
+@media (min-width: 992px) {
+    .navbarDesktop{
+        display: flex;
+    }
+    .navbarMobile{
+        display: none;
+    }
+    .header{
+        align-items: center;
+    }
+}
+

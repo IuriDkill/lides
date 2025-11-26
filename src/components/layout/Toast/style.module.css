@@ -1,0 +1,47 @@
+.toastContainer{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 350px;
+    color: #333;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.toastIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.toastContainer svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    min-height: 25px;
+}
+
+.toastContainer h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.success {
+    border: 3px solid #55965E;
+}
+.error {
+    border: 3px solid #FF3939;
+}
+.info {
+    border: 3px solid #3E78AA;
+}
