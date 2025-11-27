@@ -1,0 +1,39 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    /* border: 5px solid #ff6600; */
+    border-radius: 20px;
+    width: 90%;
+    padding: 20px;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profileTitle {
+    width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.homeItems {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+}

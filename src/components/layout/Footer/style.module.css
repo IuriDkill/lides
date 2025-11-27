@@ -3,141 +3,38 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(180deg, #014570 0%, #002E5E 100%);
-    padding-inline: 2rem;
+    padding: 2rem;
     z-index: 10;
 }
 
-.ContainerLogo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.footer h1{
-    font-size: 1.5rem;
-}
-
-.footer span{
-    font-size: 1rem;
-}
-
-.footer small{
-    font-size: 0.8rem;
-}
-
-.logo{
-    width: 205px;
-    height: 100px;
-}
-
-.leaf{
-    width: 18px;
-    height: 18px;
-}
-
-.left{
-    display: none;
-}
-
-.right{
-    display: none;
-}
-
-.socialIcon{
-    width: 25px;
-    height: 25px;
-}
-
-.socialIcon path{
-    fill: #002E5E;
-}
-
-.SocialContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-.Social{
+.socialIcons {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 60px;
-    background: linear-gradient(90deg, #E5E5E5 0%, #E5E5E5 35.5%, #E5E5E5 70%, #B4B4B4 98.5%), linear-gradient(90deg, #01366D 0%, #014570 50%, #01366D 100%);
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5rem;
 }
 
-.Social:hover{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #002E5E 0%, #014570 50%, #002E5E 100%);
-    box-shadow: 1px 1px 2px 0px rgba(208, 214, 42, 0.50);
-    scale: 1.1;
+.socialIcons svg path {
+    fill: #ff6600;
 }
 
-.Social:hover .socialIcon path{
-    fill: #fff;
+.socialIcons svg rect {
+    fill: #ff6600;
 }
 
-.ContainerSociais{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+.socialIcons a {
+    transition: all 0.3s ease;
 }
 
-.Contatct_a{
-    width: fit-content;
-    display: flex;
-    padding: 10px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 50px;
-    color: #002E5E;
-    background: linear-gradient(90deg, #E5E5E5 0%, #E5E5E5 35.5%, #E5E5E5 70%, #B4B4B4 98.5%), linear-gradient(90deg, #01366D 0%, #014570 50%, #01366D 100%);
-    border: none;
-    outline: none;
-    cursor: pointer;
+.socialIcons a:hover {
+    transform: scale(1.5);
 }
 
-.Contatct_a:hover{
-    color: #3C9;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #002E5E 0%, #014570 50%, #002E5E 100%);
-    box-shadow: 1px 1px 2px 0px rgba(208, 214, 42, 0.50);
+.socialIcons a:hover svg path {
+    fill: #ff3300;
 }
-
-.footer p{
-    margin: 0;
-}
-
-
-@media (min-width: 1024px) {
-    .logo{
-        width: 410px;
-        height: 200px;
-    }
-    .left{
-        display: flex;
-    }
-    .right{
-        display: flex;
-    }
-    .footer{
-        flex-direction: row;
-    }
-    .footer h1{
-        font-size: 2rem;
-    }
-    .footer span{
-        font-size: 1.25rem;
-    }
-    .footer small{
-        font-size: 1rem;
-    }
+.socialIcons a:hover svg rect {
+    fill: #ff3300;
 }
