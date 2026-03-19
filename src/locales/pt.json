@@ -2,5 +2,77 @@
     "buttons":{
         "partners": "Parceiros",
         "home": "Home"
+    },
+    "items": {
+        "item1": {
+            "title": "FIFINE H9",
+            "subtitle": "HEADSET BARATO 🎧"
+        },
+        "item2": {
+            "title": "HOLLYLAND LARK A1 COMBO",
+            "subtitle": "MELHOR LAPELA 🎤"
+        },
+        "item3": {
+            "title": "HAVIT EARBUDS LIFE01T",
+            "subtitle": "FONE DE OUVIDO SEM FIO 🎵"
+        },
+        "item4": {
+            "title": "HAVIT HEADPHONE H630BT",
+            "subtitle": "BLUETOOTH 5.3 ON-EAR 🎵"
+        },
+        "item5": {
+            "title": "PROJETOR VEVSHAO A22",
+            "subtitle": "USE CUPOM 'A22BRJ' 🎥"
+        },
+        "item6": {
+            "title": "CONTROLE 8BITDO (XBOX E PC)",
+            "subtitle": "USE CUPOM '5V11EYEUDY74' 🎮"
+        },
+        "item7": {
+            "title": "MONITOR TAURUS PRO - BLUECASE",
+            "subtitle": "REVIEW COMPLETA 🖥️"
+        },
+        "item8": {
+            "title": "HAVIT H2002C+U",
+            "subtitle": "FONE EM AÇO ROXO 🎧"
+        },
+        "item9": {
+            "title": "HAVIT FUXI H7",
+            "subtitle": "FONE PARA PS5 🎧"
+        },
+        "item10": {
+            "title": "PROJETOR VEVSHAO A15",
+            "subtitle": "USE CUPOM 'A15C10BR' 🎥"
+        },
+        "item11": {
+            "title": "FIFINE K688",
+            "subtitle": "MICROFONE DINÂMICO 🎤"
+        },
+        "item12": {
+            "title": "FIFINE AM8",
+            "subtitle": "MICROFONE RGB E USB 🎤"
+        },
+        "item13": {
+            "title": "FIFINE X3",
+            "subtitle": "FONE BLUETOOTH 🎧"
+        },
+        "item14": {
+            "title": "HAVIT EARBUDS TW958 PRO",
+            "subtitle": "USE CUPOM 'BAZOOHAVIT12' 🎵"
+        }
+    },
+    "partners": {
+        "partner1": {
+            "title": "CAMISA DE TIME MISTERIOSA",
+            "subtitle": "USE DESCONTO 'LIDESUT10' - GOLBOX"
+        },
+        "partner2": {
+            "title": "CRIE O UNIFORME DOS SONHOS",
+            "subtitle": "PANTHUS SPORT"
+        },
+        "partner3": {
+            "title": "CARDS DE FUTEBOL COM DESCONTO",
+            "subtitle": "USE 'LIDES10TOPPS' - TOPPS"
+        }
     }
 }

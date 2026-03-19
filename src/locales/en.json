@@ -1,3 +1,78 @@
 {
-    
+  "buttons": {
+    "partners": "Partners",
+    "home": "Home"
+  },
+  "items": {
+    "item1": {
+      "title": "FIFINE H9",
+      "subtitle": "BUDGET HEADSET 🎧"
+    },
+    "item2": {
+      "title": "HOLLYLAND LARK A1 COMBO",
+      "subtitle": "BEST LAVALIER MIC 🎤"
+    },
+    "item3": {
+      "title": "HAVIT EARBUDS LIFE01T",
+      "subtitle": "WIRELESS EARBUDS 🎵"
+    },
+    "item4": {
+      "title": "HAVIT HEADPHONE H630BT",
+      "subtitle": "BLUETOOTH 5.3 ON-EAR 🎵"
+    },
+    "item5": {
+      "title": "PROJETOR VEVSHAO A22",
+      "subtitle": "USE CODE 'A22BRJ' 🎥"
+    },
+    "item6": {
+      "title": "8BITDO CONTROLLER (XBOX & PC)",
+      "subtitle": "USE CODE '5V11EYEUDY74' 🎮"
+    },
+    "item7": {
+      "title": "TAURUS PRO MONITOR - BLUECASE",
+      "subtitle": "FULL REVIEW 🖥️"
+    },
+    "item8": {
+      "title": "HAVIT H2002C+U",
+      "subtitle": "PURPLE STEEL HEADSET 🎧"
+    },
+    "item9": {
+      "title": "HAVIT FUXI H7",
+      "subtitle": "HEADSET FOR PS5 🎧"
+    },
+    "item10": {
+      "title": "PROJETOR VEVSHAO A15",
+      "subtitle": "USE CODE 'A15C10BR' 🎥"
+    },
+    "item11": {
+      "title": "FIFINE K688",
+      "subtitle": "DYNAMIC MICROPHONE 🎤"
+    },
+    "item12": {
+      "title": "FIFINE AM8",
+      "subtitle": "RGB & USB MICROPHONE 🎤"
+    },
+    "item13": {
+      "title": "FIFINE X3",
+      "subtitle": "BLUETOOTH HEADPHONES 🎧"
+    },
+    "item14": {
+      "title": "HAVIT EARBUDS TW958 PRO",
+      "subtitle": "USE CODE 'BAZOOHAVIT12' 🎵"
+    }
+  },
+  "partners": {
+    "partner1": {
+      "title": "MYSTERY FOOTBALL JERSEY",
+      "subtitle": "USE CODE 'LIDESUT10' - GOLBOX"
+    },
+    "partner2": {
+      "title": "CREATE YOUR DREAM KIT",
+      "subtitle": "PANTHUS SPORT"
+    },
+    "partner3": {
+      "title": "FOOTBALL CARDS WITH DISCOUNT",
+      "subtitle": "USE 'LIDES10TOPPS' - TOPPS"
+    }
+  }
 }
