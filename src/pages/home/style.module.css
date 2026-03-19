@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    align-items: center;
 }
 
 .HomeProfile{
@@ -11,9 +10,11 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    /* border: 5px solid #ff6600; */
+    border: 5px solid #ff6600;
     border-radius: 20px;
-    width: 90%;
+    width: fit-content;
+    max-width: 95%;
+    height: 100%;
     padding: 20px;
 }
 
@@ -36,4 +37,44 @@
     gap: 15px;
     width: 100%;
     align-items: center;
+}
+
+.radioGroup {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.radioOption {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    background: transparent;
+    color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.labelText {
+    position: relative;
+    z-index: 1;
+}
+
+.underline {
+    position: absolute;
+    bottom: 4px;
+    left: 20px;
+    right: 20px;
+    height: 2px;
+    background: #ff6600;
+    border-radius: 2px;
+}
+
+.radioOption input {
+    display: none;
+    cursor: pointer;
 }

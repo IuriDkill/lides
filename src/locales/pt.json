@@ -1,3 +1,6 @@
 {
-    
+    "buttons":{
+        "partners": "Parceiros",
+        "home": "Home"
+    }
 }

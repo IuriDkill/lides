@@ -9,11 +9,24 @@
     padding: 10px 50px;
     border-radius: 10px;
     width: 40%;
-    min-width: 400px;
+    min-width: 420px;
 }
 
 .container img {
     width: 100px;
     height: 100px;
     margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px 10px;
+        min-width: 350px;
+    }
+
+    .container img {
+        width: 80px;
+        height: 80px;
+    }
 }

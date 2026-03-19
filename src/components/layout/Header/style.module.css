@@ -1,0 +1,30 @@
+.headerContainer {
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%;
+}
+
+.langSelector {
+    display: flex;
+    gap: 8px;
+}
+
+.langButton {
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+
+.langButton:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1.15);
+}
