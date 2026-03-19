@@ -12,25 +12,117 @@ type BaseItem = {
 };
 
 const Items: BaseItem[] = [
-    { title: 'home.linkText1', subtitle: 'home.linkSubtitle1', linkUrl: 'https://lides.com.br', imageUrl: '/images/3.png' },
-    { title: 'home.linkText2', subtitle: 'home.linkSubtitle2', linkUrl: 'https://example.com' },
-    { title: 'home.linkText3', subtitle: 'home.linkSubtitle3', linkUrl: 'https://example.com' },    
+    {
+        "title": "FIFINE H9",
+        "subtitle": "HEADSET BARATO 🎧",
+        "linkUrl": "https://pt.aliexpress.com/item/1005005557220339.html?gatewayAdapt=glo2bra",
+        "imageUrl": "https://www.maxgaming.com/img/bilder/artiklar/27569.jpg?m=1688027848&w=720"
+    },
+    {
+        "title": "HOLLYLAND LARK A1 COMBO",
+        "subtitle": "MELHOR LAPELA 🎤",
+        "linkUrl": "https://www.amazon.com.br/stores/page/BF138B1D-551A-40D7-A3DC-FD531DAEF92D",
+        "imageUrl": "http://soundium.com/cdn/shop/files/01_133525.jpg?v=1750851586"
+    },
+    {
+        "title": "HAVIT EARBUDS LIFE01T",
+        "subtitle": "FONE DE OUVIDO SEM FIO 🎵",
+        "linkUrl": "https://www.mercadolivre.com.br/havit-audio-hvtws-tw982-tw982-branco-1/p/MLB44610251?product_trigger_id=MLB44616858&picker=true&quantity=1",
+        "imageUrl": "https://ccimg1.canadacomputers.com/Products/452x452/1563/1751/257518/78902.jpg"
+    },
+    {
+        "title": "HAVIT HEADPHONE H630BT",
+        "subtitle": "BLUETOOTH 5.3 ON-EAR 🎵",
+        "linkUrl": "https://www.mercadolivre.com.br/headphone-gamer-havit-h630bt-bluetooth-53-on-ear-3d-55h-cor-preto/p/MLB25967798?pdp_filters=item_id%3AMLB5517538114#origin%3Dshare%26sid%3Dshare%26wid%3DMLB5517538114",
+        "imageUrl": "https://havitsmart.com/cdn/shop/files/havit-wireless-headphones-h630bt-noise-cancellinghavit-business-929254.jpg?v=1749802184"
+    },
+    {
+        "title": "PROJETOR VEVSHAO A22",
+        "subtitle": "USE CUPOM 'A22BRJ' 🎥",
+        "linkUrl": "https://s.click.aliexpress.com/e/_mroIODF",
+        "imageUrl": "https://ae01.alicdn.com/kf/S39f8af99ad9e44388f8a272c66df15c3Z.jpg"
+    },
+    {
+        "title": "CONTROLE 8BITDO (XBOX E PC)",
+        "subtitle": "USE CUPOM '5V11EYEUDY74' 🎮",
+        "linkUrl": "https://s.click.aliexpress.com/e/_mrPOSfF",
+        "imageUrl": "http://shop.8bitdo.com/cdn/shop/files/15_af987f33-5c15-4af7-b739-201f99ebf444.jpg?v=1743414879"
+    },
+    {
+        "title": "MONITOR TAURUS PRO - BLUECASE",
+        "subtitle": "REVIEW COMPLETA 🖥️",
+        "linkUrl": "https://youtu.be/oWu7Nu3TmJ4",
+        "imageUrl": "https://a-static.mlcdn.com.br/%7Bw%7Dx%7Bh%7D/monitor-gamer-taurus-pro-bm24ffad1gw-238-ips-full-hd-180hz-1ms-10-bits-srgb-110-ajuste-de-altura-vesa-dp-hdm-bluecase/smartchoicetech/blebm24ffad1gw/fead9aefc263dd736f4eb0dc33e447c1.jpeg"
+    },
+    {
+        "title": "HAVIT H2002C+U",
+        "subtitle": "FONE EM AÇO ROXO 🎧",
+        "linkUrl": "https://dada.link/140Wzk",
+        "imageUrl": "https://havitsmart.com/cdn/shop/files/havit-gaming-headphones-h2002cu-usb-71havit-business-149001.jpg?v=1749802168"
+    },
+    {
+        "title": "HAVIT FUXI H7",
+        "subtitle": "FONE PARA PS5 🎧",
+        "linkUrl": "https://www.amazon.com.br/Fuxi-H7-White-Black-Destacável-Cancelamento/dp/B0DMSKLY91",
+        "imageUrl": "https://havitsmart.com/cdn/shop/files/havit-gaming-headphones-fuxi-h7-five-modehavit-business-413638.jpg?v=1749802079"
+    },
+    {
+        "title": "PROJETOR VEVSHAO A15",
+        "subtitle": "USE CUPOM 'A15C10BR' 🎥",
+        "linkUrl": "https://s.click.aliexpress.com/e/_oFmLOlz",
+        "imageUrl": "https://saruk-web-images.s3.eu-north-1.amazonaws.com/Vevshao%20A15%20Smart%20Mini%20Projector%20260ANSI%20Lumens%20Portable%20Android%2013%20Projector%20Dual%20WiFi%20Auto%20Keystone%20Focus%20Pocket%20Beamer%20Home%20Meeting%20Video%20Cinema.jpg"
+    },
+    {
+        "title": "FIFINE K688",
+        "subtitle": "MICROFONE DINÂMICO 🎤",
+        "linkUrl": "https://s.click.aliexpress.com/e/_opXPmxD",
+        "imageUrl": "https://www.maxgaming.com/bilder/artiklar/zoom/31674_4.jpg?m=1754318605"
+    },
+    {
+        "title": "FIFINE AM8",
+        "subtitle": "MICROFONE RGB E USB 🎤",
+        "linkUrl": "https://s.click.aliexpress.com/e/_oF65OJp",
+        "imageUrl": "https://us.maxgaming.com/bilder/artiklar/23057.jpg?m=1671030665"
+    },
+    {
+        "title": "FIFINE X3",
+        "subtitle": "FONE BLUETOOTH 🎧",
+        "linkUrl": "https://s.click.aliexpress.com/e/_oC9KHAF",
+        "imageUrl": "http://simpletechnic.com/cdn/shop/files/FifineX3.png?v=1740162745"
+    },
+    {
+        "title": "HAVIT EARBUDS TW958 PRO",
+        "subtitle": "USE CUPOM 'BAZOOHAVIT12' 🎵",
+        "linkUrl": "https://dada.link/Y12Alq",
+        "imageUrl": "https://havitsmart.com/cdn/shop/files/havit-wireless-earbuds-tw958-pro-basshavit-business-317127.jpg?v=1749802232"
+    }   
 ];
 
 const Partners: BaseItem[] = [
-    { title: 'home.partner1', linkUrl: 'https://lides.com.br', imageUrl: '/images/3.png' },
-    { title: 'home.partner2', linkUrl: 'https://example.com' },
-    { title: 'home.partner3', linkUrl: 'https://example.com' },    
+    {
+        "title": "CAMISA DE TIME MISTERIOSA",
+        "subtitle": "USE DESCONTO 'LIDESUT10' - GOLBOX",
+        "linkUrl": "https://www.golbox.club/",
+        "imageUrl": "http://www.mysteryfootball.co.uk/cdn/shop/files/new_main_image.png?v=1744221946"
+    },
+    {
+        "title": "CRIE O UNIFORME DOS SONHOS",
+        "subtitle": "PANTHUS SPORT",
+        "linkUrl": "https://simulador.panthus.com.br",
+        "imageUrl": "https://cdn.footballkitarchive.com/2024/12/03/cnmF5dZhtc0q0Il-small.jpg"
+    },
+    {
+        "title": "CARDS DE FUTEBOL COM DESCONTO",
+        "subtitle": "USE 'LIDES10TOPPS' - TOPPS",
+        "linkUrl": "https://br.topps.com/",
+        "imageUrl": "https://i.ebayimg.com/images/g/UMgAAOSw4GBk9xuS/s-l1200.jpg"
+    },
 ];
 
 export default function Home() {
     const { t } = useTranslation();
-
     const [currentList, setCurrentList] = useState<BaseItem[]>(Items);
 
-    // const handleToggle = () => {
-    //     setCurrentList(prev => prev === Items ? Partners : Items);
-    // };
 
     return (
         <div className={style.homeContainer}>
