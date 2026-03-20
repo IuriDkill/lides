@@ -23,7 +23,7 @@ const Items: BaseItem[] = [
     linkUrl:
       "https://www.amazon.com.br/stores/page/BF138B1D-551A-40D7-A3DC-FD531DAEF92D",
     imageUrl:
-      "https://m.media-amazon.com/images/I/61qUoO7imuL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+      "https://m.media-amazon.com/images/I/61qUoO7imuL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg ",
   },
   //   {
   //     key: "item3",
