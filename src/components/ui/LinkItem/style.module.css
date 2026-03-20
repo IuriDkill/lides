@@ -1,50 +1,56 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    background: transparent;
-    /* background: #ff6600; */
-    border: 5px solid #ff6600;
-    color: black;
-    cursor: pointer;
-    padding: 10px 30px;
-    border-radius: 10px;
-    width: 100%;
-    min-width: 420px;
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: transparent;
+  /* background: #ff6600; */
+  border: 5px solid #ff6600;
+  color: black;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 10px;
+  width: 100%;
+  min-width: 420px;
 }
 
 .container h1 {
-    color: white;
-    text-align: left;
-    font-size: 20px;
-    margin: 0;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  margin: 0;
 }
 
 .container h2 {
-    color: white;
-    text-align: left;
-    font-size: 14px;
-    margin: 0;
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
 }
 
-.container img {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-    border-radius: 25%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.itensImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 25%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.partnerImage {
+  width: 100px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
-    .container {
-        width: 90%;
-        padding: 10px 10px;
-        min-width: 350px;
-    }
+  .container {
+    width: 90%;
+    padding: 10px 10px;
+    min-width: 350px;
+  }
 
-    .container img {
-        width: 80px;
-        height: 80px;
-    }
+  .container img {
+    width: 80px;
+    height: 80px;
+  }
 }
