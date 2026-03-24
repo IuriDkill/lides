@@ -115,7 +115,7 @@ const Partners: BaseItem[] = [
     key: "partner3",
     linkUrl: "https://br.topps.com/",
     imageUrl:
-      "https://br.topps.com/_next/static/media/logo-outline.11a4d717.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Topps_Logo.svg",
   },
 ];
 
