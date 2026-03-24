@@ -117,6 +117,12 @@ const Partners: BaseItem[] = [
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/2/29/Topps_Logo.svg",
   },
+  {
+    key: "partner4",
+    linkUrl: "https://www.comfy.com.br/",
+    imageUrl:
+      "https://raichu-uploads.s3.amazonaws.com/logo_comfy_BK3YTR.png",
+  }
 ];
 
 export default function Home() {
