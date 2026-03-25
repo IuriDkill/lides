@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux';
 import { I18nextProvider } from "react-i18next";
 
+import { Analytics } from '@vercel/analytics/react';
 import { ToastProvider } from '@/ToastProvider.tsx';
 import { store } from '@/redux/Store';
 import AppRouter from '@/routes/AppRouter.tsx'
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')!).render(
     <Provider store={store}>
       <ToastProvider>
         <AppRouter />
+        <Analytics />
       </ToastProvider>
     </Provider>
   </I18nextProvider>
