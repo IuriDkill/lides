@@ -12,6 +12,12 @@ type BaseItem = {
 
 const Items: BaseItem[] = [
   {
+    key: "item3",
+    linkUrl: "https://bit.ly/4d2x0E2",
+    imageUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYSNdyR0duuykbMCQOgPIdYhCFJfqpfvCXOw&s",
+  },
+  {
     key: "item1",
     linkUrl:
       "https://pt.aliexpress.com/item/1005005557220339.html?gatewayAdapt=glo2bra",
@@ -25,13 +31,6 @@ const Items: BaseItem[] = [
     imageUrl:
       "https://m.media-amazon.com/images/I/61qUoO7imuL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg ",
   },
-  //   {
-  //     key: "item3",
-  //     linkUrl:
-  //       "https://www.mercadolivre.com.br/havit-audio-hvtws-tw982-tw982-branco-1/p/MLB44610251",
-  //     imageUrl:
-  //       "https://ccimg1.canadacomputers.com/Products/452x452/1563/1751/257518/78902.jpg",
-  //   },
   {
     key: "item4",
     linkUrl:
@@ -101,6 +100,11 @@ const Items: BaseItem[] = [
 
 const Partners: BaseItem[] = [
   {
+    key: "partner4",
+    linkUrl: "https://www.comfy.com.br/",
+    imageUrl: "https://raichu-uploads.s3.amazonaws.com/logo_comfy_BK3YTR.png",
+  },
+  {
     key: "partner1",
     linkUrl: "https://www.golbox.club/",
     imageUrl:
@@ -117,12 +121,6 @@ const Partners: BaseItem[] = [
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/2/29/Topps_Logo.svg",
   },
-  {
-    key: "partner4",
-    linkUrl: "https://www.comfy.com.br/",
-    imageUrl:
-      "https://raichu-uploads.s3.amazonaws.com/logo_comfy_BK3YTR.png",
-  }
 ];
 
 export default function Home() {
