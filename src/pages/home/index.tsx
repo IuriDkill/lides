@@ -12,6 +12,12 @@ type BaseItem = {
 
 const Items: BaseItem[] = [
   {
+    key: "item16",
+    linkUrl: "https://havitbrasil.short.gy/LidesUT1",
+    imageUrl:
+      "https://havitsmart.com/cdn/shop/files/havit-gaming-headphones-h2002cu-usb-71havit-business-149001.jpg?v=1749802168",
+  },
+  {
     key: "item15",
     linkUrl: "https://havitbrasil.short.gy/LidesUT",
     imageUrl:
