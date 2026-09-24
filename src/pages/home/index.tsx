@@ -118,6 +118,12 @@ const Items: BaseItem[] = [
 
 const Partners: BaseItem[] = [
   {
+    key: "partner5",
+    linkUrl: "https://www.7card.com.br/",
+    imageUrl:
+      "https://assets.sistemawbuy.com.br/arquivos/9166a9e029fe2c4f23f1e5a4c4c3cd48/config/19-remodelada-680b80ddcdb0b1.png",
+  },
+  {
     key: "partner4",
     linkUrl: "https://www.comfy.com.br/",
     imageUrl: "https://raichu-uploads.s3.amazonaws.com/logo_comfy_BK3YTR.png",
