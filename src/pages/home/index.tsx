@@ -12,6 +12,12 @@ type BaseItem = {
 
 const Items: BaseItem[] = [
   {
+    key: "item18",
+    linkUrl: "https://dada.link/bkc2uu",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/71jWpV1m4IL._AC_SX300_SY300_QL70_ML2_.jpg",
+  },
+  {
     key: "item17",
     linkUrl: "https://dada.link/nWtAHv",
     imageUrl:
