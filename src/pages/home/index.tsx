@@ -15,7 +15,7 @@ const Items: BaseItem[] = [
     key: "item19",
     linkUrl: "https://dada.link/bkc2uu",
     imageUrl:
-      "https://m.media-amazon.com/images/I/71g1gS6qGmL.jpg",
+      "https://havitsmart.com/cdn/shop/files/havit-gaming-headphones-fuxi-h3-quad-modehavit-business-133217.jpg?v=1749802102",
   },
   {
     key: "item18",
